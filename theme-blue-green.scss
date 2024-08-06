@@ -1,0 +1,72 @@
+/*-- scss:defaults --*/
+
+$c-body: #3288BD;
+$c-body-text: white;
+$c-cabec: #66c2A5;
+$c-cabec-text: white;
+$c-code-block:#BABABA;
+$c-code-block-border: #878787;
+
+
+// Basic colors
+$primary: #3288BD;
+$secondary: #5E4FA2;
+$grey: #BABABA;
+$grey1: #878787;
+
+// Callout Collors
+$blue: Blue;
+$green: Green;
+$orange: Orange;
+$yellow: Yellow;
+$red: Red;
+
+
+// Base document colors
+$body-bg: $c-body;
+$body-color: $c-body-text;
+$link-color: #75AADB;
+$input-bg: $c-code-block;
+$popover-bg: white;
+
+// Navigation bar
+$navbar-bg: $c-cabec;
+$navbar-fg: $c-cabec-text;
+$navbar-hl: $c-body;
+$sidebar-bg: #ABDDA4;
+$sidebar-hl: $navbar-hl;
+$footer-bg: $navbar-bg;
+$footer-fg: $navbar-fg;
+
+// Code blocks
+$code-block-bg: $c-code-block;
+$code-block-border-left: $c-code-block-border;
+$code-block-border-left-style: solid;
+$code-block-border-left-size: 3px;
+$code-block-padding-left: 0.6em;
+$code-block-bg-alpha: -.8;
+//$code-block-bg-alpha: 0;
+$code-block-bg: $c-code-block;
+$code-block-bg-padding: 0.4em;
+
+//Callouts
+$callout-border-width: 5px;
+$callout-border-scale: 0%;
+$callout-icon-scale: 10%;
+$callout-margin-top: 1.25rem;
+$callout-margin-bottom: 1.25rem;
+$callout-color-note: $blue;
+$callout-color-tip: $green;
+$callout-color-caution: $orange;
+$callout-color-warning: $yellow;
+$callout-color-important: $red;
+
+//Fonts
+//$font-family-sans-serif:
+//$font-family-monospace:
+
+// Code copy
+$btn-code-copy-color: $secondary;
+$btn-code-copy-color-active: $primary;
+
+// https://quarto.org/docs/output-formats/html-themes.html
