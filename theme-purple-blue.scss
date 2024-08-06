@@ -1,0 +1,177 @@
+
+/*-- scss:defaults --*/
+
+$c-cabec: #5E4FA2;
+$c-cabec-text: white;
+
+$c-body: #3288BD;
+$c-body-text: white;
+
+$c-code-block: #053061;
+$c-code-block-border: #525252;
+
+
+// Basic colors
+$primary: #3288BD;
+$secondary: #5E4FA2;
+$grey: #BABABA;
+$grey1: #878787;
+
+// Callout Collors
+$blue: Blue;
+$green: Green;
+$orange: Orange;
+$yellow: Yellow;
+$red: Red;
+
+
+// Base document colors
+$body-bg: $c-body;
+$body-color: $c-body-text;
+$link-color: #fff179;
+//$input-bg: $c-code-block;
+$popover-bg: $c-cabec;
+
+// Navigation bar
+$navbar-bg: $c-cabec;
+$navbar-fg: $c-cabec-text;
+$navbar-hl: $c-body;
+$sidebar-bg: #ABDDA4;
+$sidebar-hl: $navbar-hl;
+$footer-bg: $navbar-bg;
+$footer-fg: $navbar-fg;
+
+// inline code
+//$code-bg: Black;
+//$code-color: White;
+
+// Code blocks
+// code-block-background: true
+$code-block-bg: $c-cabec-text;
+//$code-block-border-left: $c-code-block-border;
+//$code-block-border-left-style: solid;
+//$code-block-border-left-size: 3px;
+//$code-block-padding-left: 0.6em;
+//$code-block-bg-alpha: -.8;
+//$code-block-bg: $c-code-block;
+//$code-block-bg-padding: 0.4em;
+
+
+//Callouts
+$callout-border-width: 5px;
+$callout-border-scale: 0%;
+$callout-icon-scale: 10%;
+$callout-margin-top: 1.25rem;
+$callout-margin-bottom: 1.25rem;
+$callout-color-note: $blue;
+$callout-color-tip: $green;
+$callout-color-caution: $orange;
+$callout-color-warning: $yellow;
+$callout-color-important: $red;
+
+//toc
+//$toc-color: default;
+//$toc-active-border: default;
+//$toc-inactive-border: default;
+
+//Fonts
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Anta');
+@import url('https://fonts.googleapis.com/css2?family=IBM Plex Sans');
+$font-family-base: 'IBM Plex Sans', sans-serif;
+// font variables
+$f-Ibm: 'IBM Plex Sans';
+$f-Anta: 'Anta', cursive;
+
+//$font-family-sans-serif:
+//$font-family-monospace:
+$success: #ed4e0d;
+
+// Code copy
+$btn-code-copy-color: $c-cabec;
+$btn-code-copy-color-active: $c-body;
+
+// https://quarto.org/docs/output-formats/html-themes.html
+
+
+/*-- scss:rules --*/
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  font-family: $f-Ibm;
+  font-size: $font-size-base * 2;
+  line-height: 0.8;
+}
+
+p.subtitle.lead {
+  font-family: $f-Ibm;
+  font-size: $font-size-base * 4.5;
+  margin-top: -18px;
+  margin-bottom: 0px;
+  padding-top: 0px !important;
+}
+
+.about-image {
+  margin-top: 1.5em;
+}
+
+#webr-run-button-1.btn.btn-default.btn-webr,
+#webr-run-button-2.btn.btn-default.btn-webr,
+#webr-run-button-3.btn.btn-default.btn-webr,
+#webr-run-button-4.btn.btn-default.btn-webr,
+.termsfeed-com---palette-light .cc-nb-okagree {
+  background-color: #ed4e0d;
+}
+
+nav.navbar.navbar-expand-lg {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+// Tags Background color first page
+div.listing-category {
+  background-color: White;
+}
+
+// Icon fist page site
+.input-group-text {
+  //color: $c-cabec;
+  background-color: $c-cabec;
+}
+
+// Text into the Order selection box
+.form-select {
+  background-color: $c-body;
+}
+
+// Tags Background color first page
+div.listing-category {
+  background-color: White;
+}
+
+// Icon fist page site
+.input-group-text {
+  color: c-body;
+}
+
+// Text into the selection order box
+.form-select {
+  color: White;
+}
+
+// Bachground color in the order box
+.form-control{
+  background-color: $c-body;
+}
+
+input.search.form-control{
+  background-color: $c-body;
+}
+
+// output-formats
+div.cell-output {
+    //background-color: black;
+    //color: white;
+}
+
+// https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+// https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+// https://quarto.org/docs/reference/formats/html.html
